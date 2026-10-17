@@ -118,15 +118,19 @@ Businesses found through multiple searches are merged using:
 
 ________________________________________
 ### 6. Data Cleaning
-Input	Output
-+91 9876543210	+919876543210
-09876543210	+919876543210
-91-9876543210	+919876543210
+````markdown 
+```text
+### 6. Data Cleaning
+Input Output
++91 9876543210 +919876543210
+09876543210 +919876543210
+91-9876543210 +919876543210
 
 The pipeline also classifies numbers as:
 
 - Mobile
 - Landline / Other
+```
 ________________________________________
 ### Website URLs
 Removes
