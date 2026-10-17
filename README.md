@@ -71,37 +71,44 @@ SQL Server
 
 ### 1. Cost Optimization
 Every API response is cached locally.
+
 Benefits:
-•	No duplicated API charges
-•	Safe re-runs
-•	Faster execution
+- No duplicated API charges
+- Safe re-runs
+- Faster execution
+  
 Python
 CACHE_DIR
 
 ### 2. Pagination Support
 Collects multiple pages per search location.
+
 Python
 PAGES_PER_QUERY = 5
 
 ### 3. Retry Mechanism
 Handles:
-•	Rate limits
-•	Temporary server failures
-•	Network interruptions
+
+- Rate limits
+- Temporary server failures
+- Network interruptions
+  
 Python
+
 MAX_RETRIES = 4
 
 ### 4. Geographic Coverage
 Searches multiple Kochi areas:
-•	Ernakulam
-•	Edappally
-•	Kakkanad
-•	Vyttila
-•	Fort Kochi
-•	Kalamassery
-•	Angamaly
-•	Aluva
-•	Tripunithura
+- Ernakulam
+- Edappally
+- Kakkanad
+- Vyttila
+- Fort Kochi
+- Kalamassery
+- Angamaly
+- Aluva
+- Tripunithura
+- 
 and more.
 ________________________________________
 ### 5. Deduplication Strategy
@@ -132,9 +139,11 @@ ________________________________________
 Removes
 
 UTM Parameters
-Tracking Parameters
-Example:
 
+Tracking Parameters
+
+Example:
+```
 https://site.com?utm_source=google
 ↓
 https://site.com
@@ -142,10 +151,12 @@ https://site.com
 ________________________________________
 ### 7. Lead Quality Scoring
 Each business receives a score based on:
-•	Phone availability
-•	Website presence
-•	Mobile number detection
+- Phone availability
+- Website presence
+- Mobile number detection
+  
 Python
+
 contact_score
  
 ________________________________________
