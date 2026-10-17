@@ -35,19 +35,14 @@ The pipeline is designed to:
 
 ## Architecture
 
-- Config
-  
+```
+Config
 │
-
 ▼
-
-- Area Grid Generator
-  
+Area Grid Generator
 │
-
 ▼
-
--SerpApi Requests
+SerpApi Requests
 │
 ▼
 Raw JSON Cache
@@ -66,6 +61,7 @@ CSV Export
 │
 ▼
 SQL Server
+
 
 ## Features
 
