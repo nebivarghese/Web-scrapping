@@ -8,7 +8,6 @@ The goal of this project is to automate the collection of gym business informati
 
 ## Topics 
 
-- Plain Text
 - python
 - web-scraping
 - google-maps
@@ -25,23 +24,30 @@ The goal of this project is to automate the collection of gym business informati
 ### Overview
 
 This project collects gym business listings across Kochi, Kerala using Google Maps data through SerpApi.
+
 The pipeline is designed to:
-•	Minimize API credit usage
-•	Avoid duplicate businesses
-•	Support resumable execution
-•	Cache every API response
-•	Export clean business leads
-•	Load results into SQL Server
+- Minimize API credit usage
+-	Avoid duplicate businesses
+-	Support resumable execution
+-	Cache every API response
+-	Export clean business leads
+-	Load results into SQL Server
 
 ## Architecture
 
-Config
+- Config
+  
 │
+
 ▼
-Area Grid Generator
+
+- Area Grid Generator
+  
 │
+
 ▼
-SerpApi Requests
+
+-SerpApi Requests
 │
 ▼
 Raw JSON Cache
