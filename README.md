@@ -8,17 +8,17 @@ The goal of this project is to automate the collection of gym business informati
 
 ## Topics 
 
-Plain Text
-python
-web-scraping
-google-maps
-serpapi
-data-engineering
-pandas
-sql-server
-api-integration
-data-cleaning
-lead-generation
+- Plain Text
+- python
+- web-scraping
+- google-maps
+- serpapi
+- data-engineering
+- pandas
+- sql-server
+- api-integration
+- data-cleaning
+- lead-generation
 
 ## Kochi Gym Data Collector
 
