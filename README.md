@@ -111,30 +111,19 @@ and more.
 ________________________________________
 ### 5. Deduplication Strategy
 Businesses found through multiple searches are merged using:
-```
-Python
-place_id
-Fallback:
-Python
-data_id
-Fallback:
-Python
-name + address
- ```
+
+1. place_id (Primary Identifier)
+2. data_id (Fallback)
+3. name + address (Final fallback)
+
 ________________________________________
 ### 6. Data Cleaning
-The pipeline normalizes:
+![Uploading image.png…]()
 
-Phone Numbers
+The pipeline also classifies numbers as:
 
-Converts:
-
-+91 9876543210
-09876543210
-91-9876543210
-Into:
-
-+919876543210
+- Mobile
+- Landline / Other
 ________________________________________
 ### Website URLs
 Removes
