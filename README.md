@@ -72,27 +72,29 @@ Benefits:
 - No duplicated API charges
 - Safe re-runs
 - Faster execution
-  
+```
 Python
-CACHE_DIR
 
+CACHE_DIR
+```
 ### 2. Pagination Support
 Collects multiple pages per search location.
-
+```
 Python
-PAGES_PER_QUERY = 5
 
+PAGES_PER_QUERY = 5
+```
 ### 3. Retry Mechanism
 Handles:
 
 - Rate limits
 - Temporary server failures
 - Network interruptions
-  
+```
 Python
 
 MAX_RETRIES = 4
-
+```
 ### 4. Geographic Coverage
 Searches multiple Kochi areas:
 - Ernakulam
@@ -104,11 +106,12 @@ Searches multiple Kochi areas:
 - Angamaly
 - Aluva
 - Tripunithura
-- 
+  
 and more.
 ________________________________________
 ### 5. Deduplication Strategy
 Businesses found through multiple searches are merged using:
+```
 Python
 place_id
 Fallback:
@@ -117,11 +120,13 @@ data_id
 Fallback:
 Python
 name + address
- 
+ ```
 ________________________________________
 ### 6. Data Cleaning
 The pipeline normalizes:
+
 Phone Numbers
+
 Converts:
 
 +91 9876543210
@@ -143,18 +148,18 @@ Example:
 https://site.com?utm_source=google
 ↓
 https://site.com
- 
+ ```
 ________________________________________
 ### 7. Lead Quality Scoring
 Each business receives a score based on:
 - Phone availability
 - Website presence
 - Mobile number detection
-  
+```
 Python
 
 contact_score
- 
+```
 ________________________________________
 ### Technologies Used
 **Technology**	**Purpose**
