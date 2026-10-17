@@ -1,6 +1,10 @@
 # Google-Maps-Business-Scraper
 
-A Python-based data collection pipeline that extracts gym business listings from Google Maps using SerpApi, performs data cleaning and deduplication, caches API responses to minimize costs, and exports validated leads to CSV and SQL Server.
+A Python-based data engineering project that collects business data from Google Maps using SerpApi, performs data cleaning and deduplication, caches API responses to reduce API costs, and exports validated gym leads to CSV and SQL Server.
+
+## Project Objective
+
+The goal of this project is to automate the collection of gym business information across Kochi, Kerala and create a clean lead dataset for business analysis, sales outreach, and reporting purposes.
 
 ## Topics 
 
