@@ -118,7 +118,10 @@ Businesses found through multiple searches are merged using:
 
 ________________________________________
 ### 6. Data Cleaning
-![Uploading image.png…]()
+Input	Output
++91 9876543210	+919876543210
+09876543210	+919876543210
+91-9876543210	+919876543210
 
 The pipeline also classifies numbers as:
 
